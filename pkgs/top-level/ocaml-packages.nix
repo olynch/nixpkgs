@@ -528,6 +528,8 @@ let
 
     ounit = callPackage ../development/ocaml-modules/ounit { };
 
+    patoline = callPackage ../tools/typesetting/patoline { };
+
     piqi = callPackage ../development/ocaml-modules/piqi { };
     piqi-ocaml = callPackage ../development/ocaml-modules/piqi-ocaml { };
 
